@@ -1,5 +1,7 @@
 package com.shubham.leetcode.N3016;
 
+import java.util.Arrays;
+
 class Solution {
     public int minimumPushes(String word) {
         int[] freq = new int[26];

@@ -8,19 +8,21 @@ Return _an array of coordinates representing the positions of the grid in the or
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/24/example_1.png)
 
-```
+
 <strong>Input:</strong> rows = 1, cols = 4, rStart = 0, cStart = 0
+
 <strong>Output:</strong> [[0,0],[0,1],[0,2],[0,3]]
-```
+
 
 **Example 2:**
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/24/example_2.png)
 
-```
+
 <strong>Input:</strong> rows = 5, cols = 6, rStart = 1, cStart = 4
+
 <strong>Output:</strong> [[1,4],[1,5],[2,5],[2,4],[2,3],[1,3],[0,3],[0,4],[0,5],[3,5],[3,4],[3,3],[3,2],[2,2],[1,2],[0,2],[4,5],[4,4],[4,3],[4,2],[4,1],[3,1],[2,1],[1,1],[0,1],[4,0],[3,0],[2,0],[1,0],[0,0]]
-```
+
 
 **Constraints:**
 

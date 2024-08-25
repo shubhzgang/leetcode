@@ -7,7 +7,7 @@ class Solution {
         if ((p == null && q != null) || (q == null && p != null)) {
             return false;
         }
-        if (p == null && q == null) {
+        if (p == null) {
             return true;
         }
         if (p.val != q.val) {

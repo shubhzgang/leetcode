@@ -25,7 +25,7 @@ public class Solution {
     }
 
     private void dfs(int[][] grid1, int[][] grid2, int i, int j) {
-        if (i == cols || j == rows || i < 0 || j < 0 || grid2[i][j] == 0) {
+        if (i == rows || j == cols || i < 0 || j < 0 || grid2[i][j] == 0) {
             return;
         }
         if (grid1[i][j] == 0) {

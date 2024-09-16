@@ -8,7 +8,6 @@ import java.util.List;
 class Solution {
     public int findMinDifference(List<String> timePoints) {
         if (timePoints.size() > 1440) return 0;
-
         boolean[] seen = new boolean[1440];
 
         for (String time : timePoints) {
@@ -16,7 +15,6 @@ class Solution {
             if (seen[minutes]) return 0;
             seen[minutes] = true;
         }
-
         int first = Integer.MAX_VALUE, prev = Integer.MAX_VALUE;
         int minDiff = Integer.MAX_VALUE;
         int i = 0;
@@ -34,10 +32,7 @@ class Solution {
                 prev = i;
             }
         }
-
-
         minDiff = Math.min(minDiff, 1440 - prev + first);
-
         return minDiff;
     }
 

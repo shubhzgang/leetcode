@@ -1,4 +1,4 @@
-package N2938;
+package com.shubham.leetcode.N2938;
 
 /**
  * <a href="https://leetcode.com/problems/separate-black-and-white-balls/">2938. Separate Black and White Balls</a>

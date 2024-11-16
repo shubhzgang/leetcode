@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.TreeMap;
 
 /**
- * <a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/">2070. Most Beautiful Item for Each Query</a>
+ * <a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/">2070. Most Beautiful Item for Each Queryf</a>
  */
 class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {

@@ -1,4 +1,4 @@
-package N1072;
+package com.shubham.leetcode.N1072;
 
 import java.util.HashMap;
 import java.util.Map;
